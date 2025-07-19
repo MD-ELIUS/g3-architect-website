@@ -143,7 +143,124 @@ header {
 .img-items img {
     width: 100%;
     border-radius: 8px;
+    
 }
+
+
+.features-section {
+        display: grid;
+        grid-template-columns: 586px 800px;
+        justify-content: center;
+        /* align-items: center; */
+        gap: 50px;
+}
+
+.features-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #131313;
+    border: 0px 6px 0px 0px solid #FF900E;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+}
+
+.features-desc {
+    font-size: 1rem;
+    color: #727272;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.card-desc {
+    font-size: 16px;
+    color: #727272;
+    margin-top: 0px;
+}
+
+
+.card {
+    padding: 30px 42px;
+    border: none;
+    border-radius: 8px;
+    /* background-color: #FF900E; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.features-img {
+      border: none;
+    
+    margin-left: 100px;
+}
+
+.features-img img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+.features-btn {
+    margin-top: -500px;
+    padding: 45px;
+}
+
+
+.fact-section .fact-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #131313;
+
+}
+
+.fact-desc {
+    width: 540px;
+    font-size: 1rem;
+    margin-top: 24px;
+    color: #727272;
+}
+
+.fact-section .item-container {
+    margin: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.fact-section .fact-item {
+    padding: 45px 35px;
+    border: 2px solid #FF900E;
+    border-radius: 8px;
+}
+
+.fact-section .item-title {
+   font-size: 3rem;
+   font-weight: 600;
+   color: #424242;
+   margin-bottom: 0px;
+   margin-top: 10px;
+}
+
+.fact-section .item-desc {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #727272;
+  margin-top: 0px;
+}
+
 /* Responsive Style  */
 
 
